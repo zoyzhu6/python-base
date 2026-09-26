@@ -1,70 +1,9 @@
-# 测试continue
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     continue
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     if day == 2:
-#         continue
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     if day == 2:
-#         continue
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     for item in range(1, 3):
-#         print(f'面包{item}')
-#         continue
-#         print(f'牛奶{item}')
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     for item in range(1, 3):
-#         print(f'面包{item}')
-#         if day == 4 and item == 2:
-#             continue
-#         print(f'牛奶{item}')
-#     print('睡觉')
-
-# 测试break
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     break
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     if day == 2:
-#         break
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     if day == 2:
-#         break
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     print('睡觉')
-
-# for day in range(1, 5):
-#     print(f'********第{day}天********')
-#     print('吃饭')
-#     for item in range(1,3):
-#         print(f'面包{item}')
-#         if day == 4 and item == 2:
-#             break
-#         print(f'牛奶{item}')
-#     print('睡觉')
+# break跳出整个循环，continue跳过本次继续
+# break：跳出整个循环
+# continue：跳过本次，继续下一次
+for i in range(1, 6):
+    if i == 3:
+        continue    # 跳过3
+    if i == 5:
+        break       # 到5就停
+    print(i)

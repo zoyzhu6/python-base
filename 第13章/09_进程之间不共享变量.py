@@ -1,27 +1,14 @@
-# 进程之间不共享内存，因此也就不共享任何变量。
+# 进程有独立内存，变量不共享
 from multiprocessing import Process
 
-def test1(num, names):
-    num += 10
-    names.append('张三')
-    print(f'我是 test1 进程，操作之后的num是{num}，操作之后的names是{names}')
+# 进程有独立内存，变量不共享
+num = 0
+def work():
+    global num
+    num += 1
+    print(f'子进程 num={num}')
 
-def test2(num, names):
-    num -= 10
-    names.append('李四')
-    print(f'我是 test2 进程，操作之后的num是{num}，操作之后的names是{names}')
-
-if __name__ == "__main__":
-    num = 100
-    names = []
-
-    print('主进程中的【第一行】代码')
-    p1 = Process(target=test1, args=(num, names))
-    p2 = Process(target=test2, args=(num, names))
-
-    p1.start()
-    p2.start()
-
-    p1.join()
-    p2.join()
-    print('主进程中的【最后一行】代码', num, names)
+if __name__ == '__main__':
+    for _ in range(3):
+        Process(target=work).start()
+    print(f'主进程 num={num}')   # 还是0

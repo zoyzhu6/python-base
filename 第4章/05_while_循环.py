@@ -1,5 +1,6 @@
+# while 循环：条件为True就一直执行
+# while 条件：条件为 True 就一直循环
 n = 1
 while n <= 10:
-    print(f'第{n}次你好啊')
+    print(f'第{n}次')
     n += 1
-print(f'我是while循环以外的代码，执行到这里时，循环已经结束了，此时的n是：{n}')

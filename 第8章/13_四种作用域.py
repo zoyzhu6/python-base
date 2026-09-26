@@ -1,21 +1,11 @@
-a = 100
+# 作用域：L本地→E外层→G全局→B内置
+x = 'global'
 
-def test(b):
-    print('我是test函数')
-    print('test中打印的a是', a)
-    print('test收到的参数b是', b)
-    c = 200
-    d = 300
-    print('test中的c和d是', c, d)
+def outer():
+    x = 'enclosing'
     def inner():
-        e = 400
-        nonlocal c
-        c = 999
-        print('inner中的e是', e)
-        print('inner中打印的c是', c)
-        print('########', a)
+        x = 'local'
+        print(x)   # local
     inner()
-    print('***************', c)
 
-print('全局打印的a是', a)
-test(66)
+outer()

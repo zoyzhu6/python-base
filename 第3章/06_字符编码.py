@@ -1,6 +1,5 @@
+# 字符编码：Python3 默认 UTF-8，支持中文
+# Python3 默认 UTF-8，支持中文等多语言
 message1 = '你好啊'
 message2 = 'hello'
-message3 = 'สวัสดี'
-message4 = 'မင်္ဂလာပါ'
-
-print(message1, message2, message3, message4)
+print(message1, message2)

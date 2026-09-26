@@ -1,11 +1,9 @@
-# 定义函数（接收位置参数）
+# 位置参数：按顺序传，多一个少一个都不行
 def greet(name, gender, age, height):
     print(f'我叫{name}，性别{gender}，年龄是{age}，身高是{height}cm')
     print(f'我的身高是{height}，今年{age}岁了，我叫{name}')
 
-# 调用函数
 greet('张三', '男', 18, 172)
 
-# 错误示例
-# greet('张三', 18, 172)
-# greet('男', '张三', 172, 18)
+# greet('张三', 18, 172)        # ❌ 顺序错了
+# greet('男', '张三', 172, 18)   # ❌ 顺序错了

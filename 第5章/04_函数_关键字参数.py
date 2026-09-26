@@ -1,15 +1,14 @@
-# 定义函数
+# 关键字参数：参数名=值，顺序随意
+# 关键字参数：用 参数名=值 传，顺序随意
 def greet(name, gender, age, height):
     print(f'我叫{name}，性别{gender}，年龄是{age}，身高是{height}cm')
 
-# 调用函数（使用关键字参数）
 greet(name='张三', gender='男', age=18, height=172)
-greet(height=172, age = 18, gender='男', name='张三')
-greet('张三', '男', height=172, age=18)
+greet(height=172, age=18, gender='男', name='张三')  # 顺序乱也没事
+greet('张三', '男', height=172, age=18)              # 位置+关键字混用
 
-# 错误示例
-# greet(height=172, age=18, '张三', '男')
-# greet(name='张三', '男', 18, 172)
-# greet(name='张三', '男', age=18, 172)
-# greet(height=172, age=18, gender='男', name='张三', age=19)
-# greet(height=172, age=18, gender='男', name='张三', school='尚硅谷')
+# greet(height=172, age=18, '张三', '男')   # ❌ 关键字传了之后不能再位置传
+# greet(name='张三', '男', 18, 172)         # ❌ 同上
+# greet(name='张三', gender='男', age=18)   # ❌ 少传 height
+# greet(name='张三', age=18, age=19)        # ❌ age 传了两次
+# greet(name='张三', school='尚硅谷')        # ❌ 没有 school 这个参数

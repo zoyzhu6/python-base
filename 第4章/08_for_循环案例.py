@@ -1,13 +1,7 @@
-# 加密代码
-text = input('📝请输入要加密的文字：')
+# for 案例：ord()/chr() 字符编码转换实现加密
+# 加密：每个字符的 Unicode 编码 +1
+text = input('输入要加密的文字：')
 secret = ''
 for t in text:
     secret += chr(ord(t) + 1)
-print(f'㊙️经过加密后的内容为：{secret}')
-
-# 解密代码
-# secret = input('📝请输入要解密的文字：')
-# text = ''
-# for s in secret:
-#     text += chr(ord(s) - 1)
-# print(f'📃经过解密后的内容为：{text}')
+print(f'加密后：{secret}')

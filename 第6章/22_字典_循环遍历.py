@@ -1,8 +1,10 @@
-# 字典不能使用while循环遍历，但可以使用for循环遍历
-d1 = {'张三': 72, '李四': 60, '王五': 85}
+# 字典遍历：默认拿key，items()拿key和value
+d = {'张三': 72, '李四': 60}
 
-for key in d1:
-    print(f'{key}的成绩是{d1[key]}')
+# 直接遍历默认拿 key
+for key in d:
+    print(key, d[key])
 
-for key in d1.keys():
-    print(f'{key}的成绩是{d1[key]}')
+# items() 同时拿 key 和 value
+for k, v in d.items():
+    print(k, v)

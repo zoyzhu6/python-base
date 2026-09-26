@@ -1,13 +1,11 @@
-age = int(input('请输入你的年龄：'))
+# if/elif/else 多分支：从上到下匹配，命中就停
+# if / elif / else：从上到下匹配，命中就停
+age = int(input('请输入年龄：'))
 if age <= 10:
-    print('你是幼儿')
+    print('幼儿')
 elif age <= 18:
-    print('你是青少年')
+    print('青少年')
 elif age <= 30:
-    print('你是青年')
-elif age <= 50:
-    print('你是中年')
-elif age <= 60:
-    print('你是中老年')
-elif age > 60:
-    print('你是老年')
+    print('青年')
+else:
+    print('老年')

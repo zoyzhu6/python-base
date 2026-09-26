@@ -1,24 +1,16 @@
+# 抽象类：ABC+abstractmethod，不能实例化，子类必须实现
 from abc import ABC, abstractmethod
 
-#【抽象类】是一种不能直接实例化的类，它通常作为“规范”，让子类去继承，并实现其中定义的【抽象方法】。
-# MustRun类一旦继承了ABC类，那么MustRun类就是抽象类了
-class MustRun(ABC):
+# 抽象类：不能实例化，只定规范
+class Shape(ABC):
     @abstractmethod
-    def run(self):
+    def area(self):   # 子类必须实现
         pass
 
-    def speak(self):
-        print(f'你好，我叫{self.name}')
+class Circle(Shape):
+    def __init__(self, r):
+        self.r = r
+    def area(self):   # 必须实现
+        return 3.14 * self.r ** 2
 
-class Person(MustRun):
-    def __init__(self, name, age, gender):
-        self.name = name
-        self.age = age
-        self.gender = gender
-
-    def run(self):
-        print(f'我叫{self.name}，我在努力的奔跑')
-
-p1 = Person('张三', 18, '男')
-p1.run()
-p1.speak()
+print(Circle(5).area())

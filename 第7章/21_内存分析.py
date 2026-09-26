@@ -1,21 +1,7 @@
-# a = 666
-# print(id(a))
-# b = a
-# print(id(b))
-# print(a)
-# print(b)
-# a = 888
-# print(a)
-# print(b)
-# print(id(a))
-# print(id(b))
+# id()看内存地址，赋值=引用同一个对象
+a = [1, 2, 3]
+b = a
+print(id(a) == id(b))   # True（同一个对象）
 
-stu_list = ['张三', '李四', '王五']
-print(id(stu_list))
-print(id(stu_list[0]))
-stu_list[0] = '阿三'
-print(id(stu_list))
-print(id(stu_list[0]))
-
-
-
+a[0] = 99
+print(b[0])   # 99（b 也变了，因为指向同一个列表）

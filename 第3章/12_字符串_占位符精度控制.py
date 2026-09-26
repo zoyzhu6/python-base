@@ -1,7 +1,8 @@
+# 占位符精度：%5.2f 总宽5小数点后2位
+# %5.2f：总宽5，小数点后2位；%-4.1s：左对齐，宽4
 name = '张三'
-gender = '男'
 weight = 65.55
 age = 12
 
-info = '我叫%-4.1s，性别是%3.2s，体重是%-9.3f，年龄是%-6.4d' % (name, gender, weight, age)
+info = '我叫%4.1s，体重是%7.3f，年龄是%4d' % (name, weight, age)
 print(info)

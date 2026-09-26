@@ -1,9 +1,6 @@
-# 前序知识
-# print('你好', end='')
-# print('尚硅谷', end='')
-
-# for循环实现九九乘法表
+# 九九乘法表：外层行内层列
+# 外层行 1-9，内层列 1-行号
 for row in range(1, 10):
-    for item in range(1, row + 1):
-        print(f'{item}*{row}={item * row}', end='\t')
-    print()
+    for col in range(1, row + 1):
+        print(f'{col}*{row}={col*row}', end='\t')
+    print()   # 换行

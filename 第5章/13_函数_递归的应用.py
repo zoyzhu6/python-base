@@ -1,9 +1,7 @@
-# 使用递归求阶乘
+# 递归求阶乘：n! = n * (n-1)!，0! = 1
 def factorial(num):
     if num == 0:
         return 1
-    else:
-        return num * factorial(num - 1)
-# 调用函数，求5的阶乘
-result = factorial(6)
-print(result)
+    return num * factorial(num - 1)
+
+print(factorial(6))   # 720

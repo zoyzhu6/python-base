@@ -1,24 +1,21 @@
-# 定义函数（使用*args去接收：可变位置参数）
+# 可变参数：*args打包元组，**kwargs打包字典
+# *args：收集多余的位置参数，打包成元组
 def test1(*args):
-    # 此处args的值，是一种新的数据类型，叫：元组，我们下一章就去讲元组
     print(args)
-# 调用函数
-test1('张三', '男', 18, 172)
 
-# 定义函数（使用**kwargs去接收：可变关键字参数）
+test1('张三', '男', 18, 172)   # args = ('张三', '男', 18, 172)
+
+
+# **kwargs：收集多余的关键字参数，打包成字典
 def test2(**kwargs):
-    # 此处kwargs的值，是一种新的数据类型，叫：字典，我们下一章就去讲字典
     print(kwargs)
-# 调用函数
-test2(name='张三', gender='男', age=18, height=172)
 
-# 定义函数（同时使用：可变位置参数、可变关键字参数）
+test2(name='张三', gender='男', age=18)  # kwargs = {'name': '张三', 'gender': '男', 'age': 18}
+
+
+# 混用：位置参数 + *args + 默认值 + **kwargs
 def test3(a, b, *args, c='尚硅谷', **kwargs):
-    print('@@@@@@@@@@@@@@@@')
-    print(a)
-    print(b)
-    print(c)
-    print(args)
-    print(kwargs)
-# 调用函数
+    print(a, b, c, args, kwargs)
+
 test3('张三', '男', '抽烟', '喝酒', age=18, height=172)
+# a='张三', b='男', args=('抽烟','喝酒'), c='尚硅谷', kwargs={'age':18,'height':172}

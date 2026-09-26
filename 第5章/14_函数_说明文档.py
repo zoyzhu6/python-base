@@ -1,10 +1,7 @@
+# 文档字符串：函数开头三引号，help()查看
+# 文档字符串：写在函数开头，用 help() 可以查看
 def add(n1, n2):
-    """
-    计算两个数相加的结果
-    :param n1:第一个数
-    :param n2:第二个数
-    :return:二者相加的结果
-    """
+    """计算两个数相加"""
     return n1 + n2
 
-result = add(1, 2)
+help(add)

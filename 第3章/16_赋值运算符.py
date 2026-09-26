@@ -1,8 +1,5 @@
+# 赋值运算符：= 赋值，+= -= *= 复合赋值
+# = 赋值，+= -= *= /= 复合赋值
 age = 18
-age += 1
+age += 1    # 等价 age = age + 1
 print(age)
-
-price = 52
-freight = 6
-price += freight
-print(price)
