@@ -1,4 +1,8 @@
-# 字典遍历：默认拿key，items()拿key和value
+# 字典遍历
+#
+# ⚠️ Java vs Python 差异：
+#   Java：for (Map.Entry<String,Integer> e : map.entrySet())
+#   Python：for k, v in d.items():   ← 解包
 d = {'张三': 72, '李四': 60}
 
 # 直接遍历默认拿 key

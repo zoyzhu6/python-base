@@ -1,21 +1,27 @@
-# @property把方法变属性访问，@age.setter赋值校验
+# @property：把方法变成属性访问
+#
+# ⚠️ Java vs Python 差异：
+#   Java：private int age; getAge() setAge(int age)
+#   Python：@property 装饰器，调用时像属性一样
+#
+#   Java：p.setAge(20);
+#   Python：p.age = 20  ← 像赋值，实际调 setter
+
 class Person:
     def __init__(self, age):
         self._age = age
 
-    # @property：把方法变成属性来访问，做 get
     @property
-    def age(self):
+    def age(self):           # getter
         return self._age
 
-    # @age.setter：赋值时做校验
     @age.setter
-    def age(self, value):
+    def age(self, value):    # setter
         if value < 0:
             print('年龄不能为负')
             return
         self._age = value
 
 p = Person(18)
-print(p.age)    # 像属性一样调用，不是方法
-p.age = -5      # 触发 setter 校验
+print(p.age)    # 像属性，不是方法 p.age()
+p.age = -5      # 像赋值，实际调 setter

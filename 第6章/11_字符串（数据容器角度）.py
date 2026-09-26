@@ -1,4 +1,8 @@
-# 字符串方法：split/replace/count/strip
+# 字符串方法
+#
+# ⚠️ Java vs Python 差异：
+#   Java：s.split(",") s.replace("a","b") s.trim()
+#   Python：s.split(",") s.replace("a","b") s.strip()  ← 基本一样
 s = 'hello world'
 print(s[0])       # h
 print(len(s))     # 11

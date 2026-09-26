@@ -1,4 +1,14 @@
-# return：把结果返回给调用处
+# return 返回值
+#
+# ⚠️ Java vs Python 差异：
+#   ❌ Java：return new Result(a, b)  或写个类
+#   ✅ Python：return a, b  ← 自动打包元组
+#   r1, r2 = calc(1, 2)  ← 解包
+
+#
+# ⚠️ Java vs Python 差异：
+#   Java：必须声明返回类型 void/int/String
+#   Python：不用声明，return 多个值自动打包成元组
 def add(n1, n2):
     return n1 + n2
 

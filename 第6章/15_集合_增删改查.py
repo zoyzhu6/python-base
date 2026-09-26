@@ -1,4 +1,6 @@
-# 集合增删：add/update/remove/discard
+# 集合增删
+#
+# ⚠️ 和 Java HashSet 类似
 s = {10, 20, 30}
 
 # add 添加 / update 批量添加

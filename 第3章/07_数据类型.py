@@ -1,4 +1,8 @@
-# 数据类型：type() 查看类型（str/int/float）
+# 数据类型：type() 查看
+#
+# ⚠️ Java vs Python 差异：
+#   Java：int / double / String 是基本类型+类
+#   Python：int / float / str 都是类，万物皆对象
 # type() 查看数据类型
 print(type('张三'))   # <class 'str'>
 print(type(18))       # <class 'int'>

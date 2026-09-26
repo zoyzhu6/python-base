@@ -1,4 +1,4 @@
-# terminate()：强制终止子进程
+# terminate 强制终止
 from multiprocessing import Process
 import time
 

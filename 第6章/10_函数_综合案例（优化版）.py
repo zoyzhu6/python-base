@@ -1,4 +1,4 @@
-# 综合案例：健身统计
+# 综合案例
 def calc_total(*nums):
     return sum(nums)
 

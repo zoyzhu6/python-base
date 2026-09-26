@@ -1,4 +1,4 @@
-# 练习：输入成绩统计
+# 练习：成绩统计
 scores = []
 while True:
     s = input('成绩：')

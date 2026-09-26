@@ -1,4 +1,11 @@
-# 练习：学生管理系统
+# 学生管理系统
+#
+# ⚠️ 和 Java 的区别：
+#   - 没有 private，属性随便访问
+#   - 没有 new，直接类名()
+#   - 没有重载，用默认值
+#   - 不需要声明属性类型
+
 class Student:
     count = 0
     def __init__(self, name, age):

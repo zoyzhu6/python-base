@@ -1,4 +1,4 @@
-# Queue：进程间通信，先进先出
+# Queue 进程通信
 from multiprocessing import Queue
 
 # Queue 进程间通信：先进先出

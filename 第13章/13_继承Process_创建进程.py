@@ -1,4 +1,4 @@
-# 继承Process重写run方法
+# 继承 Process 重写 run
 from multiprocessing import Process
 
 class MyProcess(Process):

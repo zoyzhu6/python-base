@@ -1,4 +1,9 @@
-# 列表遍历：for 循环 / enumerate 拿下标和值
+# 列表遍历
+#
+# ⚠️ Java vs Python 差异：
+#   Java：for (int i = 0; i < list.size(); i++)
+#   Python：for item in list:  ← 直接遍历元素
+#   enumerate() 同时拿下标和值
 scores = [62, 50, 80, 95]
 
 # for 遍历

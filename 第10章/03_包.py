@@ -1,4 +1,8 @@
-# 包：含__init__.py的文件夹，管理多个模块
+# 包
+#
+# ⚠️ Java vs Python 差异：
+#   Java：package com.xxx;
+#   Python：文件夹 + __init__.py
 # mypackage/
 #   __init__.py
 #   module1.py

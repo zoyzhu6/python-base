@@ -1,4 +1,6 @@
 # 嵌套分支：if 里面再写 if
+#
+# ⚠️ 和 Java 一样，靠缩进区分层级
 # if 里面再写 if
 age = int(input('年龄：'))
 has_report = input('提交体检报告？(是/否)：')

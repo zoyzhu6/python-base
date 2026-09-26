@@ -1,4 +1,8 @@
-# 模块：import导入py文件
+# 模块 import
+#
+# ⚠️ Java vs Python 差异：
+#   Java：import java.util.ArrayList;
+#   Python：import math   ← 导入整个文件
 # 同目录下有 math_utils.py，里面有 add 函数
 # import math_utils
 # print(math_utils.add(1, 2))

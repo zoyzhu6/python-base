@@ -1,4 +1,8 @@
-# None：空值，类似Java的null，bool(None)=False
+# None：空值
+#
+# ⚠️ Java vs Python 差异：
+#   Java：null
+#   Python：None   ← 首字母大写，是个对象
 # None = 空值，类似 Java 的 null
 msg = None
 print(type(msg))   # <class 'NoneType'>

@@ -1,4 +1,6 @@
-# 浮点型 float：带小数点的数字，支持科学计数法
+# 浮点型 float：带小数点
+#
+# ⚠️ 和 Java 的 double 类似
 # 浮点型 float：带小数点的数字
 weight = 65.2
 price = 120.0

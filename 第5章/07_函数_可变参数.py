@@ -1,4 +1,8 @@
-# 可变参数：*args打包元组，**kwargs打包字典
+# 可变参数：*args **kwargs
+#
+# ⚠️ Java vs Python 差异：
+#   Java：int... nums 可变参数，只能放最后
+#   Python：*args 打包成元组，**kwargs 打包成字典
 # *args：收集多余的位置参数，打包成元组
 def test1(*args):
     print(args)

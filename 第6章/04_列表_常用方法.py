@@ -1,4 +1,8 @@
-# 列表常用方法：index/count/reverse/sort
+# 列表常用方法
+#
+# ⚠️ Java vs Python 差异：
+#   sort() 改原列表，sorted() 返回新列表
+#   Java：Collections.sort(list)
 nums = [10, 20, 30, 20, 10]
 
 # index(值)：第一次出现的下标

@@ -1,4 +1,8 @@
-# 集合 set：无序不重复用{}，自动去重，空集合用set()
+# 集合 set：不重复
+#
+# ⚠️ Java vs Python 差异：
+#   Java：Set<Integer> set = new HashSet<>();
+#   Python：{10, 20, 30}   ← 大括号
 s = {10, 20, 20, 30, 30, 40}
 print(s)   # {10, 20, 30, 40}
 

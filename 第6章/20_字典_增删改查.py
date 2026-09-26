@@ -1,4 +1,8 @@
-# 字典增删改查：d[key]赋值/get取值/pop删
+# 字典增删改查
+#
+# ⚠️ Java vs Python 差异：
+#   Java：map.put("a", 1); map.get("a");
+#   Python：d["a"] = 1; d["a"];  ← 中括号
 d = {'张三': 72, '李四': 60}
 
 # 查：d[key] 不存在会报错；d.get(key, 默认值) 更安全

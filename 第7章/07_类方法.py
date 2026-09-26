@@ -1,10 +1,16 @@
-# 类方法：@classmethod，第一个参数cls，操作类属性
+# 类方法：@classmethod，第一个参数 cls
+#
+# ⚠️ Java vs Python 差异：
+#   Java：public static void addCount() { ... }
+#   Python：@classmethod / def add_count(cls): ...
+#
+#   cls 相当于 Java 的类本身，用来操作类属性
+
 class Person:
     count = 0
 
-    # @classmethod 类方法：第一个参数 cls（类本身），操作类属性
     @classmethod
-    def add_count(cls):
+    def add_count(cls):   # cls 自动传入类本身
         cls.count += 1
 
 Person.add_count()

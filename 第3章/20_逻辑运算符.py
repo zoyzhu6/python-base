@@ -1,4 +1,14 @@
-# 逻辑运算符：and两边都真 or一边真就真 not取反，支持短路
+# 逻辑运算符：and or not
+#
+# ⚠️ Java vs Python 差异：
+#   ❌ Java：if (a && b || !c)
+#   ✅ Python：if a and b or not c
+#   Python 用单词，不用符号！
+
+#
+# ⚠️ Java vs Python 差异：
+#   Java：&&  ||  !
+#   Python：and  or  not  ← 用单词，不用符号
 # and：两边都真才真；or：一边真就真；not：取反
 print(True and False)   # False
 print(True or False)    # True

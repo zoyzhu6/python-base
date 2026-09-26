@@ -1,4 +1,8 @@
-# 列表增删改查：append/insert/pop/remove/下标赋值
+# 列表增删改查
+#
+# ⚠️ Java vs Python 差异：
+#   Java：list.add() list.remove() list.set() list.get()
+#   Python：append() insert() pop() remove() nums[0] = 66
 nums = [10, 20, 30]
 
 # 增：append 末尾追加 / insert 指定位置插入 / extend 合并另一个列表

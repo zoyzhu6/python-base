@@ -1,4 +1,4 @@
-# join()：等子进程结束再继续
+# join 等待，和 Java Thread.join() 一样
 from multiprocessing import Process
 import time
 

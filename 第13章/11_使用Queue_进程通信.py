@@ -1,4 +1,4 @@
-# Queue实现生产者消费者模式
+# Queue 生产者消费者
 from multiprocessing import Process, Queue
 
 def producer(q):

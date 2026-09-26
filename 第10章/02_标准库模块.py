@@ -1,4 +1,6 @@
-# 标准库：math/random/os等自带模块
+# 标准库
+#
+# ⚠️ 和 Java 的 JDK 类似
 import math
 print(math.sqrt(16))   # 4.0
 

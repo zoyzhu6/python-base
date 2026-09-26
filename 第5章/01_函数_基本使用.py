@@ -1,4 +1,8 @@
-# 函数：def 定义，调用时执行
+# 函数：def 定义
+#
+# ⚠️ Java vs Python 差异：
+#   Java：public void welcome() { ... }
+#   Python：def welcome(): ...   ← 没有 public/void，def 关键字
 # 定义函数
 def welcome():
     print('欢迎来到尚硅谷课堂！')

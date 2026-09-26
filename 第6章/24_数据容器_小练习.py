@@ -1,4 +1,4 @@
-# 练习：字符串统计
+# 练习
 comment = '这家奶茶真好喝，好喝！强烈推荐！'
 print(comment.count('好喝'))     # 2
 print(comment.replace('贵', '略高'))

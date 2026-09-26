@@ -1,4 +1,8 @@
-# 元组 tuple：不可变的列表，用 ()，单元素必须加逗号
+# 元组 tuple：不可变
+#
+# ⚠️ Java vs Python 差异：
+#   Java：没有元组！Java 用 List.of() 或 record
+#   Python：(10, 20, 30)  ← 不可变列表
 t = (10, 20, 30, 20)
 print(t[0])
 print(t.count(20))

@@ -1,4 +1,6 @@
-# 递归求阶乘：n! = n * (n-1)!，0! = 1
+# 递归求阶乘
+#
+# ⚠️ 和 Java 一样
 def factorial(num):
     if num == 0:
         return 1

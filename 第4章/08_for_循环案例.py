@@ -1,4 +1,6 @@
-# for 案例：ord()/chr() 字符编码转换实现加密
+# for 加密案例
+#
+# ord() 字符→编码，chr() 编码→字符
 # 加密：每个字符的 Unicode 编码 +1
 text = input('输入要加密的文字：')
 secret = ''

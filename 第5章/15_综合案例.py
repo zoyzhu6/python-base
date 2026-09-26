@@ -1,4 +1,4 @@
-# 综合案例：健身挑战统计
+# 综合案例：健身统计
 def calc_total(*nums):
     """计算总运动量"""
     return sum(nums)

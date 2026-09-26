@@ -1,4 +1,4 @@
-# CPU密集型→用多进程
+# CPU密集型→多进程
 from concurrent.futures import ProcessPoolExecutor
 
 def heavy(n):

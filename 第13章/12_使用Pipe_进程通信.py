@@ -1,4 +1,4 @@
-# Pipe：两个进程双向通信
+# Pipe 双向通信
 from multiprocessing import Process, Pipe
 
 # Pipe 管道：两个进程双向通信

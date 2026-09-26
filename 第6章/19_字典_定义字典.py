@@ -1,4 +1,8 @@
-# 字典 dict：键值对用{}，key唯一，key不可变
+# 字典 dict：键值对
+#
+# ⚠️ Java vs Python 差异：
+#   Java：Map<String,Integer> map = new HashMap<>();
+#   Python：d = {"张三": 72}   ← 大括号，key:value
 d = {'张三': 72, '李四': 60, '王五': 85}
 
 # key 重复时后面的覆盖前面

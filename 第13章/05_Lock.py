@@ -1,4 +1,6 @@
-# Lock加锁：防止多进程同时改资源
+# Lock 加锁
+#
+# ⚠️ 和 Java ReentrantLock 类似
 from multiprocessing import Process, Lock
 
 # Lock 加锁：防止多个进程同时改同一个资源

@@ -1,4 +1,8 @@
-# 关键字参数：参数名=值，顺序随意
+# 关键字参数：参数名=值
+#
+# ⚠️ Java vs Python 差异：
+#   Java：只能按顺序传
+#   Python：greet(name="张三", age=18)  ← 可以按名字传，顺序随意
 # 关键字参数：用 参数名=值 传，顺序随意
 def greet(name, gender, age, height):
     print(f'我叫{name}，性别{gender}，年龄是{age}，身高是{height}cm')

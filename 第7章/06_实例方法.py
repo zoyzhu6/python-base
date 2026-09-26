@@ -1,9 +1,13 @@
-# 实例方法：操作实例属性的方法
+# 实例方法：第一个参数 self，操作实例属性
+#
+# ⚠️ Java vs Python 差异：
+#   就是普通成员方法，和 Java 最像的部分
+#   唯一区别：self 要手动写
+
 class Person:
     def __init__(self, name):
         self.name = name
 
-    # 实例方法：第一个参数 self，用实例调用
     def speak(self):
         print(f'我是{self.name}')
 

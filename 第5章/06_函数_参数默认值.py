@@ -1,4 +1,8 @@
-# 默认值参数：调用时不传就用默认值
+# 默认值参数
+#
+# ⚠️ Java vs Python 差异：
+#   Java：重载实现多个构造方法
+#   Python：默认值参数实现，def greet(name, msg="你好")
 # 默认值：调用时不传就用默认值
 def greet(name, gender, age, height, msg='你好'):
     print(f'我叫{name}，性别{gender}，年龄是{age}，身高是{height}cm')

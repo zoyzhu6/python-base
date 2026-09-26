@@ -1,4 +1,8 @@
-# 字符串格式化：f-string（推荐）、%占位符、+拼接
+# 字符串格式化：f-string 最方便
+#
+# ⚠️ Java vs Python 差异：
+#   Java：String.format("我叫%s", name)  或 "我叫" + name
+#   Python：f"我叫{name}"  ← 直接 {} 里放变量，最推荐
 name = '张三'
 age = 18
 
