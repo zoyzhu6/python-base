@@ -7,7 +7,7 @@ def log(func):
         return func(*args, **kwargs)
     return wrapper
 
-@log
+@log  # ⭐ 装饰器
 def add(a, b):
     return a + b
 

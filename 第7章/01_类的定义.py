@@ -11,8 +11,8 @@
 #   - 要实现多种传参方式，用默认值
 #   - self 必须写，相当于 Java 的 this，但要手动写出来
 
-class Person:
+class Person:  # ⭐ 定义类
     # __init__ 构造方法：创建实例时自动调用
-    def __init__(self, name, age):
+    def __init__(self, name, age):  # ⭐ 类方法
         self.name = name   # self.name = 值，相当于 this.name = name
         self.age = age

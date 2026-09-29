@@ -10,13 +10,13 @@
 #   Java：super(name, age);
 #   Python：super().__init__(name, age)
 
-class Person:
-    def __init__(self, name, age):
+class Person:  # ⭐ 定义类
+    def __init__(self, name, age):  # ⭐ 类方法
         self.name = name
         self.age = age
 
-class Student(Person):
-    def __init__(self, name, age, sid):
+class Student(Person):  # ⭐ 定义类
+    def __init__(self, name, age, sid):  # ⭐ 类方法
         super().__init__(name, age)   # 调父类构造
         self.sid = sid
 

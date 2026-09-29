@@ -12,15 +12,15 @@
 #   常见魔法方法：
 #   __init__ 构造  __str__打印  __len__len()  __lt__<比较  __eq__==比较
 
-class Person:
-    def __init__(self, name, age):
+class Person:  # ⭐ 定义类
+    def __init__(self, name, age):  # ⭐ 类方法
         self.name = name
         self.age = age
 
-    def __str__(self):        # 相当于 Java 的 toString()
+    def __str__(self):        # 相当于 Java 的 toString()  # ⭐ 类方法
         return f'{self.name}({self.age})'
 
-    def __lt__(self, other):  # 相当于 Java 的 Comparable
+    def __lt__(self, other):  # 相当于 Java 的 Comparable  # ⭐ 类方法
         return self.age < other.age
 
 p1 = Person('张三', 18)

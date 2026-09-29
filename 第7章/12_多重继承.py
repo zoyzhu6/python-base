@@ -8,13 +8,13 @@
 #
 #   方法查找顺序按 __mro__（从左到右）
 
-class A:
-    def hello(self): print('A')
+class A:  # ⭐ 定义类
+    def hello(self): print('A')  # ⭐ 类方法
 
-class B:
-    def hi(self): print('B')
+class B:  # ⭐ 定义类
+    def hi(self): print('B')  # ⭐ 类方法
 
-class C(A, B):   # 同时继承 A 和 B
+class C(A, B):   # 同时继承 A 和 B  # ⭐ 定义类
     pass
 
 c = C()

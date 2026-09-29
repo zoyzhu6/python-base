@@ -19,24 +19,24 @@
 #   - Python 的 self 必须写在第一个参数位置！
 #   - 调用时 p.speak("hi")，Python 自动把 p 传给 self，不用手动传
 
-class Person:
+class Person:  # ⭐ 定义类
     count = 0   # 类属性
 
-    def __init__(self, name):
+    def __init__(self, name):  # ⭐ 类方法
         self.name = name
 
     # ① 实例方法：操作实例属性，第一个参数 self
-    def speak(self, msg):
+    def speak(self, msg):  # ⭐ 类方法
         print(f'我叫{self.name}，{msg}')
 
     # ② 类方法：操作类属性，第一个参数 cls
     @classmethod
-    def add_count(cls):
+    def add_count(cls):  # ⭐ 类方法
         cls.count += 1
 
     # ③ 静态方法：不操作实例也不操作类，没有 self/cls
     @staticmethod
-    def is_adult(age):
+    def is_adult(age):  # ⭐ 类方法
         return age >= 18
 
 

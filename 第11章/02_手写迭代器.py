@@ -1,7 +1,7 @@
 # 学习目标：__iter__ __next__实现迭代器
 #
 # 类实现__iter__和__next__就是迭代器
-class Count:
+class Count:  # ⭐ 定义类
     def __init__(self, n):
         self.n = n
         self.i = 0

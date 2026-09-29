@@ -8,11 +8,11 @@
 #
 #   cls 相当于 Java 的类本身，用来操作类属性
 
-class Person:
+class Person:  # ⭐ 定义类
     count = 0
 
     @classmethod
-    def add_count(cls):   # cls 自动传入类本身
+    def add_count(cls):   # cls 自动传入类本身  # ⭐ 类方法
         cls.count += 1
 
 Person.add_count()

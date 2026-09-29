@@ -1,8 +1,8 @@
 # 学习目标：Thread创建线程
 #
 # Thread创建线程，共享内存
-from threading import Thread
-import time
+from threading import Thread  # ⭐ 从模块导入
+import time  # ⭐ 导入模块
 
 def task(name):
     print(f'{name} 开始')

@@ -8,7 +8,7 @@
 #
 #   两边类似，Python 里 class Person: 等价 class Person(object):
 
-class Person: pass
+class Person: pass  # ⭐ 定义类
 
 p = Person()
 print(p.__dict__)   # 实例自己的属性

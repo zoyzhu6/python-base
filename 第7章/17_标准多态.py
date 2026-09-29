@@ -5,11 +5,11 @@
 # ⚠️ Java vs Python 差异：
 #   和 Java 类似，但 Python 更灵活（不检查类型）
 
-class Dog:
-    def speak(self): print('汪汪')
+class Dog:  # ⭐ 定义类
+    def speak(self): print('汪汪')  # ⭐ 类方法
 
-class Cat:
-    def speak(self): print('喵喵')
+class Cat:  # ⭐ 定义类
+    def speak(self): print('喵喵')  # ⭐ 类方法
 
 def make_sound(animal):
     animal.speak()   # 不关心类型，只要有 speak 方法

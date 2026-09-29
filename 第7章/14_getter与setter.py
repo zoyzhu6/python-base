@@ -9,16 +9,16 @@
 #   Java：p.setAge(20);
 #   Python：p.age = 20  ← 像赋值，实际调 setter
 
-class Person:
-    def __init__(self, age):
+class Person:  # ⭐ 定义类
+    def __init__(self, age):  # ⭐ 类方法
         self._age = age
 
     @property
-    def age(self):           # getter
+    def age(self):           # getter  # ⭐ 类方法
         return self._age
 
     @age.setter
-    def age(self, value):    # setter
+    def age(self, value):    # setter  # ⭐ 类方法
         if value < 0:
             print('年龄不能为负')
             return

@@ -6,11 +6,11 @@
 #   就是普通成员方法，和 Java 最像的部分
 #   唯一区别：self 要手动写
 
-class Person:
-    def __init__(self, name):
+class Person:  # ⭐ 定义类
+    def __init__(self, name):  # ⭐ 类方法
         self.name = name
 
-    def speak(self):
+    def speak(self):  # ⭐ 类方法
         print(f'我是{self.name}')
 
 p = Person('张三')

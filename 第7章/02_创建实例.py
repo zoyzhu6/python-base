@@ -17,8 +17,8 @@
 #   - Python 没有重载！不要写两个 __init__，用默认值
 #   - 实例属性直接 . 属性访问，没有 getter/setter 也能访问
 
-class Person:
-    def __init__(self, name, age=0):   # age 不传默认0，相当于Java的重载
+class Person:  # ⭐ 定义类
+    def __init__(self, name, age=0):   # age 不传默认0，相当于Java的重载  # ⭐ 类方法
         self.name = name
         self.age = age
 

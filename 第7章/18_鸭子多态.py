@@ -8,11 +8,11 @@
 #
 #   "如果走起来像鸭子，叫起来像鸭子，那它就是鸭子"
 
-class Dog:
-    def speak(self): print('汪汪')
+class Dog:  # ⭐ 定义类
+    def speak(self): print('汪汪')  # ⭐ 类方法
 
-class Computer:   # 不是动物，但有 speak 方法
-    def speak(self): print('滋滋')
+class Computer:   # 不是动物，但有 speak 方法  # ⭐ 定义类
+    def speak(self): print('滋滋')  # ⭐ 类方法
 
 def make_sound(x):
     x.speak()   # 不检查类型，能调就行

@@ -6,8 +6,8 @@
 #   Java：instanceof 关键字
 #   Python：isinstance(obj, Class) 函数
 
-class Person: pass
-class Student(Person): pass
+class Person: pass  # ⭐ 定义类
+class Student(Person): pass  # ⭐ 定义类
 
 s = Student()
 
