@@ -1,3 +1,5 @@
+# 学习目标：yield生成器暂停函数
+#
 # 生成器：yield的函数，自动实现迭代器
 def count(n):
     for i in range(1, n + 1):

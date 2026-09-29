@@ -1,3 +1,5 @@
+# 学习目标：生产者消费者模型
+#
 # Queue 生产者消费者
 from multiprocessing import Process, Queue
 

@@ -1,3 +1,5 @@
+# 学习目标：继承Process重写run
+#
 # 继承 Process 重写 run
 from multiprocessing import Process
 

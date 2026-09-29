@@ -1,3 +1,5 @@
+# 学习目标：包__init__.py
+#
 # 包
 #
 # ⚠️ Java vs Python 差异：

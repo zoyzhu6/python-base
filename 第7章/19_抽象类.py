@@ -1,3 +1,5 @@
+# 学习目标：ABC抽象类abstractmethod
+#
 # 抽象类：不能实例化，子类必须实现抽象方法
 #
 # ⚠️ Java vs Python 差异：

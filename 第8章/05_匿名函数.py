@@ -1,3 +1,5 @@
+# 学习目标：lambda匿名函数
+#
 # lambda一行匿名函数
 add = lambda x, y: x + y
 print(add(1, 2))   # 3

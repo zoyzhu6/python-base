@@ -1,3 +1,5 @@
+# 学习目标：class定义类，__init__构造方法
+#
 # 类定义：class 类名: 大驼峰命名（和Java一样）
 #
 # ⚠️ Java vs Python 差异：

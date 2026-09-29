@@ -1,3 +1,5 @@
+# 学习目标：return返回值，多个值自动打包元组
+#
 # return 返回值
 #
 # ⚠️ Java vs Python 差异：

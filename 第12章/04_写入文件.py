@@ -1,3 +1,5 @@
+# 学习目标：写文件
+#
 # w覆盖写 a追加写
 with open('test.txt', 'w', encoding='utf-8') as f:
     f.write('第一行\n')

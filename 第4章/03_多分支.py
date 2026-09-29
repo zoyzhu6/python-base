@@ -1,3 +1,5 @@
+# 学习目标：if/elif/else多分支
+#
 # if/elif/else 多分支
 #
 # ⚠️ Java vs Python 差异：

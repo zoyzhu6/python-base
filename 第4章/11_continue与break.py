@@ -1,3 +1,5 @@
+# 学习目标：break跳出循环 continue跳过本次
+#
 # break / continue
 #
 # ⚠️ 和 Java 一样

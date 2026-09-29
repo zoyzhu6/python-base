@@ -1,3 +1,5 @@
+# 学习目标：len max min sum 内置函数
+#
 # 内置函数：len max min sum
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：while猜数字游戏
+#
 # while 猜谜
 #
 # ⚠️ 没有 do-while 循环！Python 不支持

@@ -1,3 +1,5 @@
+# 学习目标：函数当参数传，高阶函数
+#
 # 高阶函数：参数是函数或返回值是函数
 def log(func, text):
     print(func(text))

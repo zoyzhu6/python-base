@@ -1,3 +1,5 @@
+# 学习目标：try/except/finally捕获异常
+#
 # try/except/finally：捕获异常
 try:
     n = int(input('输入数字：'))

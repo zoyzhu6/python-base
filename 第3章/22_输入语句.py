@@ -1,3 +1,5 @@
+# 学习目标：input()获取用户输入，返回字符串
+#
 # 输入：input()
 #
 # ⚠️ Java vs Python 差异：

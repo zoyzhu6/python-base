@@ -1,3 +1,5 @@
+# 学习目标：sort reverse index count 列表常用方法
+#
 # 列表常用方法
 #
 # ⚠️ Java vs Python 差异：

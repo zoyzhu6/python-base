@@ -1,3 +1,5 @@
+# 学习目标：list列表，有序可变集合，相当于Java的ArrayList
+#
 # 列表 list：有序可变
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：Pipe双向通信
+#
 # Pipe 双向通信
 from multiprocessing import Process, Pipe
 

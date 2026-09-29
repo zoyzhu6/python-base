@@ -1,3 +1,5 @@
+# 学习目标：os模块目录操作
+#
 # os模块：getcwd/mkdir/rmdir/listdir
 import os
 print(os.getcwd())        # 当前目录

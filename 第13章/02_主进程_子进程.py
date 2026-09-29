@@ -1,3 +1,5 @@
+# 学习目标：PID进程号
+#
 # 进程PID查看
 import os
 print(f'当前进程PID: {os.getpid()}')

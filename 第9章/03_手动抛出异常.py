@@ -1,3 +1,5 @@
+# 学习目标：raise手动抛异常
+#
 # raise手动抛出异常
 def set_age(age):
     if age < 0:

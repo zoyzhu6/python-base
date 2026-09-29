@@ -1,3 +1,5 @@
+# 学习目标：类实现装饰器
+#
 # 类装饰器：实现__call__的类
 class Log:
     def __init__(self, msg):

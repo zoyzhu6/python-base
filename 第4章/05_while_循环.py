@@ -1,3 +1,5 @@
+# 学习目标：while循环，没有n++用n+=1
+#
 # while 循环
 #
 # ⚠️ Java vs Python 差异：

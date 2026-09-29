@@ -1,3 +1,5 @@
+# 学习目标：Thread创建线程
+#
 # Thread创建线程，共享内存
 from threading import Thread
 import time

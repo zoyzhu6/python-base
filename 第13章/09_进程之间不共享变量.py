@@ -1,3 +1,5 @@
+# 学习目标：多进程独立内存不共享
+#
 # 进程有独立内存，变量不共享
 from multiprocessing import Process
 

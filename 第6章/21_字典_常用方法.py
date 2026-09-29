@@ -1,3 +1,5 @@
+# 学习目标：keys values items
+#
 # 字典方法：keys values items
 #
 # ⚠️ Java vs Python 差异：

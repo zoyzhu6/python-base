@@ -1,3 +1,5 @@
+# 学习目标：ThreadPoolExecutor线程池
+#
 # ThreadPoolExecutor：IO密集型用线程池
 from concurrent.futures import ThreadPoolExecutor
 

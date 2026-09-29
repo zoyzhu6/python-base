@@ -1,3 +1,5 @@
+# 学习目标：copy.copy浅拷贝 copy.deepcopy深拷贝
+#
 # copy.copy浅拷贝外层新内层共享，deepcopy完全独立
 import copy
 

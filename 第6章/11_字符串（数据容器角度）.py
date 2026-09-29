@@ -1,3 +1,5 @@
+# 学习目标：字符串方法split replace strip
+#
 # 字符串方法
 #
 # ⚠️ Java vs Python 差异：

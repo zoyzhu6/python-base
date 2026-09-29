@@ -1,3 +1,5 @@
+# 学习目标：嵌套循环打印九九乘法表
+#
 # 九九乘法表
 #
 # print(end='\t') 不换行，和 Java 的 System.out.print() 一样

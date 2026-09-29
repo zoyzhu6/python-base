@@ -1,3 +1,5 @@
+# 学习目标：继承Thread重写run
+#
 # 继承 Thread 重写 run，和 Java 一样
 from threading import Thread
 

@@ -1,3 +1,5 @@
+# 学习目标：True/False首字母大写，0空串None是False
+#
 # 布尔类型：True / False
 #
 # ⚠️ Java vs Python 差异：

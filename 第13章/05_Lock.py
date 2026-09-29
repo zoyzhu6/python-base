@@ -1,3 +1,5 @@
+# 学习目标：Lock加锁
+#
 # Lock 加锁
 #
 # ⚠️ 和 Java ReentrantLock 类似

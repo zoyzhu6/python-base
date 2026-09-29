@@ -1,3 +1,5 @@
+# 学习目标：None空值，相当于Java的null
+#
 # None：空值
 #
 # ⚠️ Java vs Python 差异：

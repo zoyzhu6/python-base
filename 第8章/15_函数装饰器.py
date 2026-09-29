@@ -1,3 +1,5 @@
+# 学习目标：@装饰器给函数加功能
+#
 # 装饰器：不修改原函数加额外功能
 def log(func):
     def wrapper(*args, **kwargs):

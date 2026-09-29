@@ -1,3 +1,5 @@
+# 学习目标：open().read()读文件
+#
 # open()读文件，read/readline/readlines
 f = open('test.txt', 'r', encoding='utf-8')
 content = f.read()      # 全部读

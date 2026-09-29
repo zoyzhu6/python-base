@@ -1,3 +1,5 @@
+# 学习目标：and or not，用单词不用符号
+#
 # 逻辑运算符：and or not
 #
 # ⚠️ Java vs Python 差异：

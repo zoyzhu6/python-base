@@ -1,3 +1,5 @@
+# 学习目标：Python3默认UTF-8编码
+#
 # 字符编码：Python3 默认 UTF-8
 #
 # ⚠️ Java vs Python 差异：

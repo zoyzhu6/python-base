@@ -1,3 +1,5 @@
+# 学习目标：f-string格式化输出，最常用
+#
 # 字符串格式化：f-string 最方便
 #
 # ⚠️ Java vs Python 差异：

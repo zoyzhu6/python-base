@@ -1,3 +1,5 @@
+# 学习目标：join等待子进程
+#
 # join 等待，和 Java Thread.join() 一样
 from multiprocessing import Process
 import time

@@ -1,3 +1,5 @@
+# 学习目标：import导入模块
+#
 # 模块 import
 #
 # ⚠️ Java vs Python 差异：

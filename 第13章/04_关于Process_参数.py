@@ -1,3 +1,5 @@
+# 学习目标：Process参数
+#
 # Process参数：args位置传参，kwargs关键字传参
 from multiprocessing import Process
 

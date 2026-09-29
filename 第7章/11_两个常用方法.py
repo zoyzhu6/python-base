@@ -1,3 +1,5 @@
+# 学习目标：isinstance判断类型 issubclass判断子类
+#
 # isinstance / issubclass
 #
 # ⚠️ Java vs Python 差异：

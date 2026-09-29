@@ -1,3 +1,5 @@
+# 学习目标：@staticmethod不需要self/cls
+#
 # 静态方法：@staticmethod，不需要 self/cls
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：综合案例优化版
+#
 # 综合案例
 def calc_total(*nums):
     return sum(nums)

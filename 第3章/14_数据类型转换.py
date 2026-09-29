@@ -1,3 +1,5 @@
+# 学习目标：int() float() str() 类型转换
+#
 # 类型转换：int() float() str()
 #
 # ⚠️ Java vs Python 差异：

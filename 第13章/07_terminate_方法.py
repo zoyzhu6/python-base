@@ -1,3 +1,5 @@
+# 学习目标：terminate强制终止
+#
 # terminate 强制终止
 from multiprocessing import Process
 import time

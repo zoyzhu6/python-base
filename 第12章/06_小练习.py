@@ -1,3 +1,5 @@
+# 学习目标：文件操作练习
+#
 # 练习：统计单词频率
 from collections import Counter
 

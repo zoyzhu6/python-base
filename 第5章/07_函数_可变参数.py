@@ -1,3 +1,5 @@
+# 学习目标：*args打包元组 **kwargs打包字典
+#
 # 可变参数：*args **kwargs
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：tuple元组，不可变列表
+#
 # 元组 tuple：不可变
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：CPU密集型用多进程
+#
 # CPU密集型→多进程
 from concurrent.futures import ProcessPoolExecutor
 

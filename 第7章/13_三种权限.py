@@ -1,3 +1,5 @@
+# 学习目标：_name约定保护 __name私有改名
+#
 # 权限控制：Python 没有真正的 private
 #
 # ⚠️ Java vs Python 差异：

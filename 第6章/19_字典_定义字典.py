@@ -1,3 +1,5 @@
+# 学习目标：dict字典键值对，相当于Java的HashMap
+#
 # 字典 dict：键值对
 #
 # ⚠️ Java vs Python 差异：

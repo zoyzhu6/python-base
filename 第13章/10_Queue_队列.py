@@ -1,3 +1,5 @@
+# 学习目标：Queue进程通信
+#
 # Queue 进程通信
 from multiprocessing import Queue
 

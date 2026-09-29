@@ -1,3 +1,5 @@
+# 学习目标：@property装饰器getter setter
+#
 # @property：把方法变成属性访问
 #
 # ⚠️ Java vs Python 差异：

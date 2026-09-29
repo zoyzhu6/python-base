@@ -1,3 +1,5 @@
+# 学习目标：字典增删改查 d[key]=value
+#
 # 字典增删改查
 #
 # ⚠️ Java vs Python 差异：

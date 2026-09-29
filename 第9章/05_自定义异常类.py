@@ -1,3 +1,5 @@
+# 学习目标：自定义异常继承Exception
+#
 # 自定义异常：继承Exception
 class MyError(Exception):
     def __init__(self, msg):

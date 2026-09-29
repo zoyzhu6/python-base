@@ -1,3 +1,5 @@
+# 学习目标：异常往上抛
+#
 # 异常往上抛，直到被try接住
 def func1():
     raise ValueError('出错了')

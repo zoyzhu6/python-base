@@ -1,3 +1,5 @@
+# 学习目标：add remove 集合增删
+#
 # 集合增删
 #
 # ⚠️ 和 Java HashSet 类似

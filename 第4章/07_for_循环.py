@@ -1,3 +1,5 @@
+# 学习目标：for遍历循环，range()生成序列
+#
 # for 循环
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：ProcessPoolExecutor进程池
+#
 # ProcessPoolExecutor：自动管理多进程
 from concurrent.futures import ProcessPoolExecutor
 

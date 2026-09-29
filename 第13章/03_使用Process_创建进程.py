@@ -1,3 +1,5 @@
+# 学习目标：Process创建子进程
+#
 # Process创建子进程，start()启动join()等待
 from multiprocessing import Process
 import time

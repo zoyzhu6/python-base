@@ -1,3 +1,5 @@
+# 学习目标：class子类(父类)继承
+#
 # 继承：class 子类(父类)
 #
 # ⚠️ Java vs Python 差异：

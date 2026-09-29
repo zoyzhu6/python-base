@@ -1,3 +1,5 @@
+# 学习目标：@classmethod第一个参数cls
+#
 # 类方法：@classmethod，第一个参数 cls
 #
 # ⚠️ Java vs Python 差异：

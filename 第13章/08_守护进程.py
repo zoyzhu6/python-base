@@ -1,3 +1,5 @@
+# 学习目标：daemon守护进程
+#
 # daemon=True：主进程死它就死
 from multiprocessing import Process
 import time

@@ -1,3 +1,5 @@
+# 学习目标：for k,v in d.items()遍历
+#
 # 字典遍历
 #
 # ⚠️ Java vs Python 差异：

@@ -1,3 +1,5 @@
+# 学习目标：append insert pop remove 列表增删改查
+#
 # 列表增删改查
 #
 # ⚠️ Java vs Python 差异：

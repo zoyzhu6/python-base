@@ -1,3 +1,5 @@
+# 学习目标：所有类默认继承object
+#
 # 所有类默认继承 object
 #
 # ⚠️ Java vs Python 差异：

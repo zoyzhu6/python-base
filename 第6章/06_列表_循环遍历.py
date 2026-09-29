@@ -1,3 +1,5 @@
+# 学习目标：for遍历列表，enumerate同时拿下标和值
+#
 # 列表遍历
 #
 # ⚠️ Java vs Python 差异：
