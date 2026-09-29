@@ -4,7 +4,7 @@
 #
 # ⚠️ 和 Java 一样，靠缩进区分层级
 # if 里面再写 if
-age = int(input('年龄：'))
+age = int(input('年龄：'))  # ⭐ 核心语法
 has_report = input('提交体检报告？(是/否)：')
 level = int(input('会员等级(1/2/3)：'))
 

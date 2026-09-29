@@ -6,7 +6,7 @@
 #   Java：public void welcome() { ... }
 #   Python：def welcome(): ...   ← 没有 public/void，def 关键字
 # 定义函数
-def welcome():
+def welcome():  # ⭐ 核心语法
     print('欢迎来到尚硅谷课堂！')
     print('尚硅谷，让天下没有难学的技术！')
 

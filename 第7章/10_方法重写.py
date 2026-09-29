@@ -6,7 +6,7 @@
 #   和 Java 一样，直接写同名方法就是重写
 #   super().方法() 调父类的，和 Java 一样
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def speak(self):  # ⭐ 类方法
         print('人在说话')
 

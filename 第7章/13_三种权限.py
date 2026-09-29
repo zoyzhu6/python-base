@@ -12,7 +12,7 @@
 #
 #   ⚠️ 注意：这都是约定！不是编译器强制！
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, name, age, idcard):  # ⭐ 类方法
         self.name = name        # 公有
         self._age = age         # 保护（约定）

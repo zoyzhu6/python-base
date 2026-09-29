@@ -1,7 +1,7 @@
 # 学习目标：yield生成器暂停函数
 #
 # 生成器：yield的函数，自动实现迭代器
-def count(n):
+def count(n):  # ⭐ 核心语法
     for i in range(1, n + 1):
         yield i   # 暂停，返回值，下次继续
 

@@ -8,7 +8,7 @@
 #
 #   就是放在类里的工具函数，和类本身关系不大
 
-class Math:  # ⭐ 定义类
+class Math:  # ⭐ 定义类  # ⭐ 核心语法
     @staticmethod
     def add(a, b):  # ⭐ 类方法
         return a + b

@@ -4,7 +4,7 @@
 #
 # ⚠️ 和 Java 一样
 # 函数嵌套调用：test1 → test2 → test3，再一层层返回
-def test1():
+def test1():  # ⭐ 核心语法
     print('进入 test1')
     test2()
     print('退出 test1')

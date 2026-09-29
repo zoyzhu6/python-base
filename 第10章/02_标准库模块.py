@@ -3,7 +3,7 @@
 # 标准库
 #
 # ⚠️ 和 Java 的 JDK 类似
-import math  # ⭐ 导入模块
+import math  # ⭐ 导入模块  # ⭐ 核心语法
 print(math.sqrt(16))   # 4.0
 
 import random  # ⭐ 导入模块

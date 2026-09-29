@@ -6,7 +6,7 @@
 #   Java：null
 #   Python：None   ← 首字母大写，是个对象
 # None = 空值，类似 Java 的 null
-msg = None
+msg = None  # ⭐ 核心语法
 print(type(msg))   # <class 'NoneType'>
 print(bool(msg))   # False
 

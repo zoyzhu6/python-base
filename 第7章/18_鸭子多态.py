@@ -8,7 +8,7 @@
 #
 #   "如果走起来像鸭子，叫起来像鸭子，那它就是鸭子"
 
-class Dog:  # ⭐ 定义类
+class Dog:  # ⭐ 定义类  # ⭐ 核心语法
     def speak(self): print('汪汪')  # ⭐ 类方法
 
 class Computer:   # 不是动物，但有 speak 方法  # ⭐ 定义类

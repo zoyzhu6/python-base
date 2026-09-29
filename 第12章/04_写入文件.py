@@ -1,7 +1,7 @@
 # 学习目标：写文件
 #
 # w覆盖写 a追加写
-with open('test.txt', 'w', encoding='utf-8') as f:
+with open('test.txt', 'w', encoding='utf-8') as f:  # ⭐ 核心语法
     f.write('第一行\n')
     f.write('第二行\n')
 

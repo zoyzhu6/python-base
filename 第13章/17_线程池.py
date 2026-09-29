@@ -1,7 +1,7 @@
 # 学习目标：ThreadPoolExecutor线程池
 #
 # ThreadPoolExecutor：IO密集型用线程池
-from concurrent.futures import ThreadPoolExecutor  # ⭐ 从模块导入
+from concurrent.futures import ThreadPoolExecutor  # ⭐ 从模块导入  # ⭐ 核心语法
 
 def task(n):
     return n * n

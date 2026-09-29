@@ -5,7 +5,7 @@
 # ⚠️ Java 没有这个概念
 #   /前只能位置传，*后必须关键字传
 # / 前面：只能位置传；/ 和 * 之间：都行；* 后面：必须关键字传
-def greet(name, /, gender, *, age, height):
+def greet(name, /, gender, *, age, height):  # ⭐ 核心语法
     print(f'我叫{name}，性别{gender}，年龄是{age}，身高是{height}cm')
 
 

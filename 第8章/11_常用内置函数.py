@@ -1,7 +1,7 @@
 # 学习目标：内置函数速查abs max min sum
 #
 # 内置函数：abs/round/max/min/sum/zip/all/any
-print(abs(-5))        # 5 绝对值
+print(abs(-5))        # 5 绝对值  # ⭐ 核心语法
 print(round(3.7))     # 4 四舍五入
 print(max(1, 5, 3))   # 5
 print(min(1, 5, 3))   # 1

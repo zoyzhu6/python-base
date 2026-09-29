@@ -1,7 +1,7 @@
 # 学习目标：copy.copy浅拷贝 copy.deepcopy深拷贝
 #
 # copy.copy浅拷贝外层新内层共享，deepcopy完全独立
-import copy  # ⭐ 导入模块
+import copy  # ⭐ 导入模块  # ⭐ 核心语法
 
 a = [1, 2, [3, 4]]
 

@@ -5,7 +5,7 @@
 # ⚠️ Java vs Python 差异：
 #   Java：没有元组！Java 用 List.of() 或 record
 #   Python：(10, 20, 30)  ← 不可变列表
-t = (10, 20, 30, 20)
+t = (10, 20, 30, 20)  # ⭐ 核心语法
 print(t[0])
 print(t.count(20))
 

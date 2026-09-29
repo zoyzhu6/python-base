@@ -1,7 +1,7 @@
 # 学习目标：综合函数做健身统计
 #
 # 综合案例：健身统计
-def calc_total(*nums):
+def calc_total(*nums):  # ⭐ 核心语法
     """计算总运动量"""
     return sum(nums)
 

@@ -6,7 +6,7 @@
 # 递归：函数自己调用自己，必须有终止条件
 
 # 从大到小：先打印再递归
-def welcome(n):
+def welcome(n):  # ⭐ 核心语法
     print(f'你好啊{n}')
     if n > 1:
         welcome(n - 1)

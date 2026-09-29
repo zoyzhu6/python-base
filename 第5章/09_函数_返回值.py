@@ -11,7 +11,7 @@
 # ⚠️ Java vs Python 差异：
 #   Java：必须声明返回类型 void/int/String
 #   Python：不用声明，return 多个值自动打包成元组
-def add(n1, n2):
+def add(n1, n2):  # ⭐ 核心语法
     return n1 + n2
 
 result = add(100, 200)   # result 拿到返回值

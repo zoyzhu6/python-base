@@ -3,7 +3,7 @@
 # 位置参数：按顺序传
 #
 # ⚠️ 和 Java 一样
-def greet(name, gender, age, height):
+def greet(name, gender, age, height):  # ⭐ 核心语法
     print(f'我叫{name}，性别{gender}，年龄是{age}，身高是{height}cm')
     print(f'我的身高是{height}，今年{age}岁了，我叫{name}')
 

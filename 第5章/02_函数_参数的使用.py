@@ -4,7 +4,7 @@
 #
 # ⚠️ 和 Java 类似，但不用写参数类型
 # num, dish 是形参，只能在函数内部用
-def order(num, dish):
+def order(num, dish):  # ⭐ 核心语法
     print(f'您点的是：{num}份 {dish}')
     print(f'{dish}可是很好吃的！')
     print(f'你只点了{num}份，够吃吗？\n')

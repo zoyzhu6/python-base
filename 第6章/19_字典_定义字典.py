@@ -5,7 +5,7 @@
 # ⚠️ Java vs Python 差异：
 #   Java：Map<String,Integer> map = new HashMap<>();
 #   Python：d = {"张三": 72}   ← 大括号，key:value
-d = {'张三': 72, '李四': 60, '王五': 85}
+d = {'张三': 72, '李四': 60, '王五': 85}  # ⭐ 核心语法
 
 # key 重复时后面的覆盖前面
 d2 = {'张三': 72, '张三': 99}

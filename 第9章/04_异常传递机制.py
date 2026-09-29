@@ -1,7 +1,7 @@
 # 学习目标：异常往上抛
 #
 # 异常往上抛，直到被try接住
-def func1():
+def func1():  # ⭐ 核心语法
     raise ValueError('出错了')
 
 def func2():

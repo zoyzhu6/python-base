@@ -1,7 +1,7 @@
 # 学习目标：CPU密集型用多进程
 #
 # CPU密集型→多进程
-from concurrent.futures import ProcessPoolExecutor  # ⭐ 从模块导入
+from concurrent.futures import ProcessPoolExecutor  # ⭐ 从模块导入  # ⭐ 核心语法
 
 def heavy(n):
     return sum(i*i for i in range(n))

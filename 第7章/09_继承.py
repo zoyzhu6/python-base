@@ -10,7 +10,7 @@
 #   Java：super(name, age);
 #   Python：super().__init__(name, age)
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, name, age):  # ⭐ 类方法
         self.name = name
         self.age = age

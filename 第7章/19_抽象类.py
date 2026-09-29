@@ -6,7 +6,7 @@
 #   Java：abstract class Shape { abstract double area(); }
 #   Python：继承 ABC + @abstractmethod 装饰器
 
-from abc import ABC, abstractmethod  # ⭐ 从模块导入
+from abc import ABC, abstractmethod  # ⭐ 从模块导入  # ⭐ 核心语法
 
 class Shape(ABC):           # 继承 ABC 就是抽象类  # ⭐ 定义类
     @abstractmethod

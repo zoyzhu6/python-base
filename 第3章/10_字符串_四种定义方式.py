@@ -7,7 +7,7 @@
 #   Python：单引号 'hello' 和双引号 "hello" 等价
 #   三引号 """ 可以换行
 # 单引号 / 双引号：等价
-s1 = 'hello'
+s1 = 'hello'  # ⭐ 核心语法
 s2 = "hello"
 
 # 三引号：可换行

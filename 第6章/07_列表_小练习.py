@@ -1,7 +1,7 @@
 # 学习目标：列表练习成绩统计
 #
 # 练习：成绩统计
-scores = []
+scores = []  # ⭐ 核心语法
 while True:
     s = input('成绩：')
     if s == '结束':

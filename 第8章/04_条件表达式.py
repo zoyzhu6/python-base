@@ -7,6 +7,6 @@
 #   ✅ Python：s = "成年" if age >= 18 else "未成年"
 #   注意顺序反过来！
 
-age = 21
+age = 21  # ⭐ 核心语法
 result = '成年' if age >= 18 else '未成年'
 print(result)

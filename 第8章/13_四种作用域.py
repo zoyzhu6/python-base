@@ -1,7 +1,7 @@
 # 学习目标：LEGB作用域规则
 #
 # 作用域：L本地→E外层→G全局→B内置
-x = 'global'
+x = 'global'  # ⭐ 核心语法
 
 def outer():
     x = 'enclosing'

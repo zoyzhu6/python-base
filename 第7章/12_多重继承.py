@@ -8,7 +8,7 @@
 #
 #   方法查找顺序按 __mro__（从左到右）
 
-class A:  # ⭐ 定义类
+class A:  # ⭐ 定义类  # ⭐ 核心语法
     def hello(self): print('A')  # ⭐ 类方法
 
 class B:  # ⭐ 定义类

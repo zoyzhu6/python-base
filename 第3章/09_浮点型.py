@@ -4,7 +4,7 @@
 #
 # ⚠️ 和 Java 的 double 类似
 # 浮点型 float：带小数点的数字
-weight = 65.2
+weight = 65.2  # ⭐ 核心语法
 price = 120.0
 
 # 科学计数法

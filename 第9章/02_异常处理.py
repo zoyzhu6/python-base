@@ -1,7 +1,7 @@
 # 学习目标：try/except/finally捕获异常
 #
 # try/except/finally：捕获异常
-try:
+try:  # ⭐ 核心语法
     n = int(input('输入数字：'))
     print(10 / n)
 except ValueError:

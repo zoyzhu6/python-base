@@ -9,7 +9,7 @@
 #   Java：p.setAge(20);
 #   Python：p.age = 20  ← 像赋值，实际调 setter
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, age):  # ⭐ 类方法
         self._age = age
 

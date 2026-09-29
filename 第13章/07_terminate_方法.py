@@ -1,7 +1,7 @@
 # 学习目标：terminate强制终止
 #
 # terminate 强制终止
-from multiprocessing import Process  # ⭐ 从模块导入
+from multiprocessing import Process  # ⭐ 从模块导入  # ⭐ 核心语法
 import time  # ⭐ 导入模块
 
 def task():

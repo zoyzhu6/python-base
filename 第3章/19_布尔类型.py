@@ -16,7 +16,7 @@
 #
 #   0、空串""、None 都是 False，其他都是 True
 # True / False（首字母大写）
-a = True
+a = True  # ⭐ 核心语法
 b = 5 > 3     # True
 
 # bool() 转布尔：0、空串、None 是 False，其他是 True

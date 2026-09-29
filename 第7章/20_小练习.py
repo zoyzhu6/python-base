@@ -8,7 +8,7 @@
 #   - 没有重载，用默认值
 #   - 不需要声明属性类型
 
-class Student:  # ⭐ 定义类
+class Student:  # ⭐ 定义类  # ⭐ 核心语法
     count = 0
     def __init__(self, name, age):  # ⭐ 类方法
         Student.count += 1

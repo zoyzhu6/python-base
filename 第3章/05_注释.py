@@ -5,7 +5,7 @@
 # ⚠️ Java vs Python 差异：
 #   Java：// 单行  /* 多行 */  /** 文档 */
 #   Python：# 单行  """ 多行 """
-name = '张三'
+name = '张三'  # ⭐ 核心语法
 age = 18
 
 print(name, age)

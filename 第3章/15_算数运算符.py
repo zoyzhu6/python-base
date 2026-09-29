@@ -12,7 +12,7 @@
 #   /  在 Java 里整数除整数得整数（5/2=2）
 #   /  在 Python 里永远得 float（5/2=2.5）
 #   // 取整 是 Python 独有的（5//2=2）
-print(9 + 7)    # 加
+print(9 + 7)    # 加  # ⭐ 核心语法
 print(7 - 2)    # 减
 print(3 * 4)    # 乘
 print(9 / 3)    # 除（结果是 float）

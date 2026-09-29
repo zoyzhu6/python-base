@@ -1,7 +1,7 @@
 # 学习目标：Process创建子进程
 #
 # Process创建子进程，start()启动join()等待
-from multiprocessing import Process  # ⭐ 从模块导入
+from multiprocessing import Process  # ⭐ 从模块导入  # ⭐ 核心语法
 import time  # ⭐ 导入模块
 
 def task(name):

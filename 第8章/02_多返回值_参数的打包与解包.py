@@ -1,7 +1,7 @@
 # 学习目标：多返回值自动打包元组，解包赋值
 #
 # 多返回值自动打包元组，*args/**kwargs打包解包
-def calc(a, b):
+def calc(a, b):  # ⭐ 核心语法
     return a + b, a - b
 
 r1, r2 = calc(10, 3)   # 解包

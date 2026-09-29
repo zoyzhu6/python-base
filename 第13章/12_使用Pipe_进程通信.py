@@ -1,7 +1,7 @@
 # 学习目标：Pipe双向通信
 #
 # Pipe 双向通信
-from multiprocessing import Process, Pipe  # ⭐ 从模块导入
+from multiprocessing import Process, Pipe  # ⭐ 从模块导入  # ⭐ 核心语法
 
 # Pipe 管道：两个进程双向通信
 def sender(conn):

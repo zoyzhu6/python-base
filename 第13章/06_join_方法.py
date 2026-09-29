@@ -1,7 +1,7 @@
 # 学习目标：join等待子进程
 #
 # join 等待，和 Java Thread.join() 一样
-from multiprocessing import Process  # ⭐ 从模块导入
+from multiprocessing import Process  # ⭐ 从模块导入  # ⭐ 核心语法
 import time  # ⭐ 导入模块
 
 def task():

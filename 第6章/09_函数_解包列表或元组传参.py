@@ -4,7 +4,7 @@
 #
 # ⚠️ Java 没有这个概念
 #   func(*[1,2,3]) 等价 func(1,2,3)
-def test(*args):
+def test(*args):  # ⭐ 核心语法
     print(args)
 
 nums = [10, 20, 30]

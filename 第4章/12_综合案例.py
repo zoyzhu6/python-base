@@ -4,7 +4,7 @@
 #
 # for/else：循环正常结束走 else，break 不走（Python独有）
 # 答题闯关：3关，每关3次机会，输入q退出
-print('🏆答题闯关（输入q退出）')
+print('🏆答题闯关（输入q退出）')  # ⭐ 核心语法
 questions = [
     ('Python输出函数？', 'print'),
     ('逻辑并且关键字？', 'and'),

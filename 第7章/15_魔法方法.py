@@ -12,7 +12,7 @@
 #   常见魔法方法：
 #   __init__ 构造  __str__打印  __len__len()  __lt__<比较  __eq__==比较
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, name, age):  # ⭐ 类方法
         self.name = name
         self.age = age

@@ -3,7 +3,7 @@
 # Lock 加锁
 #
 # ⚠️ 和 Java ReentrantLock 类似
-from multiprocessing import Process, Lock  # ⭐ 从模块导入
+from multiprocessing import Process, Lock  # ⭐ 从模块导入  # ⭐ 核心语法
 
 # Lock 加锁：防止多个进程同时改同一个资源
 def work(lock, n):

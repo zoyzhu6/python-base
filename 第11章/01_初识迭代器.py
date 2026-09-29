@@ -2,7 +2,7 @@
 #
 # 迭代器：iter()创建，next()取下一个
 # 迭代器：记录当前位置，每次 next() 取下一个
-nums = [1, 2, 3]
+nums = [1, 2, 3]  # ⭐ 核心语法
 it = iter(nums)   # 转成迭代器
 print(next(it))   # 1
 print(next(it))   # 2

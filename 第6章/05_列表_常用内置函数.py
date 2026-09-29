@@ -5,7 +5,7 @@
 # ⚠️ Java vs Python 差异：
 #   Java：list.size()
 #   Python：len(list)   ← 函数，不是方法
-nums = [10, 20, 30, 40, 50]
+nums = [10, 20, 30, 40, 50]  # ⭐ 核心语法
 
 # sorted()：返回新列表，不改原列表
 print(sorted(nums, reverse=True))

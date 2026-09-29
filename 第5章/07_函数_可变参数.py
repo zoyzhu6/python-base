@@ -6,7 +6,7 @@
 #   Java：int... nums 可变参数，只能放最后
 #   Python：*args 打包成元组，**kwargs 打包成字典
 # *args：收集多余的位置参数，打包成元组
-def test1(*args):
+def test1(*args):  # ⭐ 核心语法
     print(args)
 
 test1('张三', '男', 18, 172)   # args = ('张三', '男', 18, 172)

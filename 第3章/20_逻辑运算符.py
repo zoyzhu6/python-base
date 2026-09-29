@@ -12,7 +12,7 @@
 #   Java：&&  ||  !
 #   Python：and  or  not  ← 用单词，不用符号
 # and：两边都真才真；or：一边真就真；not：取反
-print(True and False)   # False
+print(True and False)   # False  # ⭐ 核心语法
 print(True or False)    # True
 print(not True)         # False
 

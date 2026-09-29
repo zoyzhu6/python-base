@@ -5,7 +5,7 @@
 # ⚠️ Java vs Python 差异：
 #   和 Java 类似，但 Python 更灵活（不检查类型）
 
-class Dog:  # ⭐ 定义类
+class Dog:  # ⭐ 定义类  # ⭐ 核心语法
     def speak(self): print('汪汪')  # ⭐ 类方法
 
 class Cat:  # ⭐ 定义类

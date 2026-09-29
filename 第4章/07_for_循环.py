@@ -8,7 +8,7 @@
 #
 #   range(1, 11) 含1不含11
 # for 变量 in range(起, 止)：遍历数字范围（含起不含止）
-for n in range(1, 11):
+for n in range(1, 11):  # ⭐ 核心语法
     print(n)
 
 # for 遍历字符串

@@ -1,7 +1,7 @@
 # 学习目标：Process参数
 #
 # Process参数：args位置传参，kwargs关键字传参
-from multiprocessing import Process  # ⭐ 从模块导入
+from multiprocessing import Process  # ⭐ 从模块导入  # ⭐ 核心语法
 
 def task(a, b, msg='默认'):
     print(a, b, msg)

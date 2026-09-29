@@ -9,7 +9,7 @@
 # float() 转浮点型：float('15.6')=15.6
 # str() 转字符串：str(18)='18'
 
-result = float('15.6')
+result = float('15.6')  # ⭐ 核心语法
 print(type(result), result)
 
 # int('7 9')  # ❌ 有空格不行

@@ -5,7 +5,7 @@
 # ⚠️ 和 Java 基本一样
 #   区别：Python 区分大小写，Java 也区分
 #   Python 推荐蛇形 user_name，Java 推荐驼峰 userName
-name2 = '张三'
+name2 = '张三'  # ⭐ 核心语法
 age_2 = 18
 
 # 驼峰 vs 蛇形

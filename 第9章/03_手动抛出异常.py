@@ -1,7 +1,7 @@
 # 学习目标：raise手动抛异常
 #
 # raise手动抛出异常
-def set_age(age):
+def set_age(age):  # ⭐ 核心语法
     if age < 0:
         raise ValueError('年龄不能为负')
     return age

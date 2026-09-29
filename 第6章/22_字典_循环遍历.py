@@ -5,7 +5,7 @@
 # ⚠️ Java vs Python 差异：
 #   Java：for (Map.Entry<String,Integer> e : map.entrySet())
 #   Python：for k, v in d.items():   ← 解包
-d = {'张三': 72, '李四': 60}
+d = {'张三': 72, '李四': 60}  # ⭐ 核心语法
 
 # 直接遍历默认拿 key
 for key in d:

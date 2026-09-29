@@ -1,7 +1,7 @@
 # 学习目标：ProcessPoolExecutor进程池
 #
 # ProcessPoolExecutor：自动管理多进程
-from concurrent.futures import ProcessPoolExecutor  # ⭐ 从模块导入
+from concurrent.futures import ProcessPoolExecutor  # ⭐ 从模块导入  # ⭐ 核心语法
 
 def task(n):
     return n * n

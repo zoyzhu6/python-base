@@ -1,7 +1,7 @@
 # 学习目标：综合案例优化版
 #
 # 综合案例
-def calc_total(*nums):
+def calc_total(*nums):  # ⭐ 核心语法
     return sum(nums)
 
 def main(title, days):

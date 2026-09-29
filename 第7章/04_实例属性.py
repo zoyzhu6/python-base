@@ -10,7 +10,7 @@
 #   - Java 类里没声明的属性不能用；Python 里 __init__ 外也能随便加属性
 #   - 不同实例可以有不同的属性（p1有address，p2没有）
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, name):  # ⭐ 类方法
         self.name = name   # 没有提前声明，直接赋值就是声明
 

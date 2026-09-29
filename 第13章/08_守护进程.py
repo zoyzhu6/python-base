@@ -1,7 +1,7 @@
 # 学习目标：daemon守护进程
 #
 # daemon=True：主进程死它就死
-from multiprocessing import Process  # ⭐ 从模块导入
+from multiprocessing import Process  # ⭐ 从模块导入  # ⭐ 核心语法
 import time  # ⭐ 导入模块
 
 def daemon_task():

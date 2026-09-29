@@ -8,6 +8,6 @@
 #
 #   Python 用缩进表示代码块，不是 {}
 # if 条件：条件为 True 才执行
-age = int(input('请输入年龄：'))
+age = int(input('请输入年龄：'))  # ⭐ 核心语法
 if age >= 18:
     print('你是成年人')

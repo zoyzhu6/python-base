@@ -6,7 +6,7 @@
 #   Java：for (int i = 0; i < list.size(); i++)
 #   Python：for item in list:  ← 直接遍历元素
 #   enumerate() 同时拿下标和值
-scores = [62, 50, 80, 95]
+scores = [62, 50, 80, 95]  # ⭐ 核心语法
 
 # for 遍历
 for s in scores:

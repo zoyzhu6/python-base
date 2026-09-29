@@ -1,7 +1,7 @@
 # 学习目标：生产者消费者模型
 #
 # Queue 生产者消费者
-from multiprocessing import Process, Queue  # ⭐ 从模块导入
+from multiprocessing import Process, Queue  # ⭐ 从模块导入  # ⭐ 核心语法
 
 def producer(q):
     q.put('数据')

@@ -8,7 +8,7 @@
 #
 #   cls 相当于 Java 的类本身，用来操作类属性
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     count = 0
 
     @classmethod

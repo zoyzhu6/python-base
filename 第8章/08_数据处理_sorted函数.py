@@ -1,7 +1,7 @@
 # 学习目标：sorted排序key参数
 #
 # sorted(可迭代,key=函数,reverse=True)排序
-nums = [30, 10, 20]
+nums = [30, 10, 20]  # ⭐ 核心语法
 print(sorted(nums))               # [10, 20, 30]
 print(sorted(nums, reverse=True))  # [30, 20, 10]
 

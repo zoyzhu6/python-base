@@ -4,7 +4,7 @@
 #
 # ⚠️ Java vs Python 差异：和 C/Java 的 printf 格式化一样
 # %5.2f：总宽5，小数点后2位；%-4.1s：左对齐，宽4
-name = '张三'
+name = '张三'  # ⭐ 核心语法
 weight = 65.55
 age = 12
 

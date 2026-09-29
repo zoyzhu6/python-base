@@ -1,7 +1,7 @@
 # 学习目标：类实现装饰器
 #
 # 类装饰器：实现__call__的类
-class Log:  # ⭐ 定义类
+class Log:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, msg):
         self.msg = msg
     def __call__(self, func):

@@ -10,7 +10,7 @@
 #   - p.species = "新" 是给 p 加了个同名实例属性，不是改类属性！
 #   - 改类属性要用 类名.属性 = 值
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     species = '人类'   # 类属性（相当于 Java 的 static）
 
     def __init__(self, name):  # ⭐ 类方法

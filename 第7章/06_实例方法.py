@@ -6,7 +6,7 @@
 #   就是普通成员方法，和 Java 最像的部分
 #   唯一区别：self 要手动写
 
-class Person:  # ⭐ 定义类
+class Person:  # ⭐ 定义类  # ⭐ 核心语法
     def __init__(self, name):  # ⭐ 类方法
         self.name = name
 
